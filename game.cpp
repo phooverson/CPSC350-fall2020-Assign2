@@ -331,7 +331,6 @@ void Game::printCurrentBoardToFile(){
 
 //print gameboard inbetween enters
 void Game::printCurrentBoardBetweenEnters(){
-  string usersInput;
   while (cin.get() != '\n'){
     //waiting for enter
   }

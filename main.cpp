@@ -40,6 +40,9 @@ int main(int argc, char** argv){
       cout << "Error, please input a valid gamemode (classic, doughnut, mirror)" << endl;
     }
   }
-
-  cout << "Simulation over, thank you." << endl;
+  cout << "Simulation over. Please press enter to exit the program." << endl;
+  while (cin.get() != '\n'){
+    //waiting for enter
+  }
+  cout << "Thank you." << endl;
 }
